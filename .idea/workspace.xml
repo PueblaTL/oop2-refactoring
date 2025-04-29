@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ec39850-a391-4962-94a6-b47e24c0c210" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio4/BuscarPersonasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/AlquilerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem.log" beforeDir="false" afterPath="$PROJECT_DIR$/mem.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mem.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem.script" beforeDir="false" afterPath="$PROJECT_DIR$/mem.script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/SetUpDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio4/SetUpDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/calculoDePago.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/calculoDePago.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/ejercicio1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,71 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.BuscarPersonasTest.buscarPorNombre.executor": "Run",
-    "JUnit.BuscarPersonasTest.executor": "Run",
-    "JUnit.ClienteTest.executor": "Run",
-    "JUnit.RecaudacionTest.executor": "Run",
-    "JUnit.ReporteDeGastosTest.gastosDesayunoMayorA1000.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/agupu/Desktop/oop2-refactoring-ejercicios-main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BuscarPersonasTest.buscarPorNombre.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BuscarPersonasTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RecaudacionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReporteDeGastosTest.gastosDesayunoMayorA1000.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/agupu/Desktop/oop2-refactoring-ejercicios-main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="oop2.tp3.ejercicio1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BuscarPersonasTest.buscarPorNombre">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio4.Main" />
-      <module name="oop2-refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuscarPersonasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop2-refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio4" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio4.BuscarPersonasTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuscarPersonasTest.buscarPorNombre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oop2-refactoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop2.tp3.ejercicio4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio4" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio4.BuscarPersonasTest" />
-      <option name="METHOD_NAME" value="buscarPorNombre" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ReporteDeGastosTest">
+    <configuration name="AlquilerTest.verificarAlquiler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
@@ -129,13 +81,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1" />
-      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.ClienteTest" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.AlquilerTest" />
+      <option name="METHOD_NAME" value="verificarAlquiler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest.verificarAspectosClientes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.AlquilerTest" />
+      <option name="METHOD_NAME" value="verificarAspectosClientes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest.verificarLibro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.AlquilerTest" />
+      <option name="METHOD_NAME" value="verificarLibro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecaudacionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio2" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio2.RecaudacionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReporteDeGastosTest.gastosDesayunoMayorA1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReporteDeGastosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
@@ -145,19 +145,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio3" />
       <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio3.ReporteDeGastosTest" />
-      <option name="METHOD_NAME" value="gastosDesayunoMayorA1000" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BuscarPersonasTest.buscarPorNombre" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BuscarPersonasTest" />
-        <item itemvalue="JUnit.ReporteDeGastosTest.gastosDesayunoMayorA1000" />
-        <item itemvalue="JUnit.ClienteTest" />
+        <item itemvalue="JUnit.ReporteDeGastosTest" />
+        <item itemvalue="JUnit.RecaudacionTest" />
+        <item itemvalue="JUnit.AlquilerTest.verificarAlquiler" />
+        <item itemvalue="JUnit.AlquilerTest.verificarAspectosClientes" />
+        <item itemvalue="JUnit.AlquilerTest.verificarLibro" />
       </list>
     </recent_temporary>
   </component>

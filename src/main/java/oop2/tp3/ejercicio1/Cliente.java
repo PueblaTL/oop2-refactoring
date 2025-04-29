@@ -17,7 +17,6 @@ public class Cliente {
         int puntosAlquilerFrecuente = 0;
         for (Alquiler alquiler : alquileres) {
             double monto = 0;
-// determine amounts for each line
             switch (alquiler.copia().libro().codigoPrecio()) {
                 case Libro.REGULARES:
                     monto += 2;
