@@ -26,7 +26,7 @@ public class PersonaRepository {
             var personas = new ArrayList<Persona>();
 
             if (rs.size() == 0) {
-                return null;
+                throw new RuntimeException("El nombre de la persona no existe en la bd");
             }
 
             for (Map<String, String> map : rs) {
@@ -51,8 +51,8 @@ public class PersonaRepository {
                     .select("select nombre, apellido from persona where id_persona = ?")
                     .bind(0, id).mapToMap(String.class).list();
 
-            if (rs.size() == 0) {
-                return null;
+            if (rs.isEmpty()) {
+                throw new RuntimeException("No existe ID buscado. ");
             }
 
             return new Persona(rs.get(0).get("nombre"), rs.get(0).get("apellido"));
