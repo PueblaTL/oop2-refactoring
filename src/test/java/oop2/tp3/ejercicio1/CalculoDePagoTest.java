@@ -1,7 +1,14 @@
 package oop2.tp3.ejercicio1;
 
-public class Main {
-    public static void main(String args[]) {
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
+public class CalculoDePagoTest {
+
+    @Test
+    public void Test(){
+        //setup
         Libro elTunel = new Libro("El Túnel", Libro.REGULARES);
         Libro antesDelFin = new Libro("Antes del Fin", Libro.REGULARES);
         CopiaLibro elTunelCopia = new CopiaLibro(elTunel);
@@ -11,9 +18,14 @@ public class Main {
         Cliente yo = new Cliente("Javier");
         yo.alquilar(alquilerElTunel);
         yo.alquilar(alquilerAntesDelFin);
-        var cobrar = new Cobros(yo);
-        Object[] resultado = cobrar.calcularDeudaYPuntosObtenidos();
-        System.out.println(resultado[0]);
-        System.out.println(resultado[1]);
+        Cobros cobro = new Cobros(yo);
+        //ejercitación
+        Object[] resultado = cobro.calcularDeudaYPuntosObtenidos();
+        //verificación
+        assertEquals(resultado[0], 10.0);
+        assertEquals(resultado[1], 2);
+
+
+
     }
 }
